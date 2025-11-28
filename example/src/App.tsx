@@ -1,10 +1,10 @@
 import { View, StyleSheet } from 'react-native';
-import { SkiaLoadingView, Spin } from 'react-native-skia-loading';
+import { CircleIndicator, Spin } from 'react-native-skia-loading';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <SkiaLoadingView color="#a8324c" style={styles.box} />
+      <CircleIndicator color="#d5e70e" backgroundCircleColor="black" />
       <Spin />
     </View>
   );
